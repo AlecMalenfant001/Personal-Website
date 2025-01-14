@@ -4,15 +4,9 @@
     "aws_region": "us-east-1",
     "user_pool_client_id": "7ocfsl8nc1uhfcmn45o8pn4qnm",
     "identity_pool_id": "us-east-1:b3382cbf-4a49-45e4-9451-803e839a7d7f",
-    "standard_required_attributes": [
-      "EMAIL"
-    ],
-    "username_attributes": [
-      "EMAIL"
-    ],
-    "user_verification_types": [
-      "EMAIL"
-    ],
+    "standard_required_attributes": ["EMAIL"],
+    "username_attributes": ["EMAIL"],
+    "user_verification_types": ["EMAIL"],
     "password_policy": {
       "min_length": 8,
       "require_lowercase": true,
@@ -25,12 +19,9 @@
   "data": {
     "url": "https://t4xlfuvc3fcdjmzcbs6dwfwplu.appsync-api.us-east-1.amazonaws.com/graphql",
     "aws_region": "us-east-1",
-    "api_key": "da2-24auokatlncrnd52trgwdujaxq",
+    "api_key": "da2-w2lftbc2krfmlmdzpril376s24",
     "default_authorization_type": "API_KEY",
-    "authorization_types": [
-      "AMAZON_COGNITO_USER_POOLS",
-      "AWS_IAM"
-    ],
+    "authorization_types": ["AMAZON_COGNITO_USER_POOLS", "AWS_IAM"],
     "model_introspection": {
       "version": 1,
       "models": {
@@ -83,9 +74,7 @@
             {
               "type": "key",
               "properties": {
-                "fields": [
-                  "id"
-                ]
+                "fields": ["id"]
               }
             },
             {
@@ -97,18 +86,11 @@
                     "ownerField": "owner",
                     "allow": "owner",
                     "identityClaim": "cognito:username",
-                    "operations": [
-                      "create",
-                      "update",
-                      "delete",
-                      "read"
-                    ]
+                    "operations": ["create", "update", "delete", "read"]
                   },
                   {
                     "allow": "public",
-                    "operations": [
-                      "read"
-                    ]
+                    "operations": ["read"]
                   }
                 ]
               }
