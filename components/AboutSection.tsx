@@ -54,7 +54,7 @@ const AboutSection = () => {
               Attending both Ivy Tech and Purdue University Northwest, I have
               accumulated a wide range of skills to help me tackle various
               projects. My senior project recently won 1st prize in Purdue
-              University Northwest's senior design contest. From managing a
+              University Northwest&#39;s senior design contest. From managing a
               local server to deploying multiple websites, I have the skills to
               turn ideas into reality. Some projects that I have worked on
               include :
