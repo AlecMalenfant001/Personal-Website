@@ -56,7 +56,7 @@ const HeroSection = () => {
 function downloadResume() {
   const a = document.createElement("a");
   a.href =
-    "https://drive.google.com/uc?export=download&id=1LzhxyA17T9uxEFoX73_TikxvTXKz1fTu";
+    "https://drive.google.com/uc?export=download&id=1sG4FNw6qTsYumbLR7ZGdEWLBRYcYjZ6N";
   a.download = "Alec-Malenfant-Resume.docx"; // File name
   document.body.appendChild(a);
   a.click();
