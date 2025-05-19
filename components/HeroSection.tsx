@@ -29,12 +29,38 @@ const HeroSection = () => {
             with a passion for all things tech. Pushing myself to learn and grow
             every day!
           </p>
-          <button
-            onClick={() => downloadResume()}
-            className="text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded shadow hover:bg-purple-700 mt-4"
-          >
-            Download Resume
-          </button>
+          <div className="flex flex-wrap mt-4 space-x-4">
+            <button
+              onClick={() => downloadResume()}
+              className="text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded shadow hover:bg-purple-700"
+            >
+              Download Resume
+            </button>
+            <button
+              className="text-slate-950 font-semibold px-6 py-3 bg-neutral-100 rounded shadow hover:bg-neutral-200"
+              onClick={() => {
+                window.open(
+                  "https://github.com/AlecMalenfant001",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            >
+              Github
+            </button>
+            <button
+              className="text-neutral-100 font-semibold px-6 py-3 bg-sky-600 rounded shadow hover:bg-sky-700"
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/alec-malenfant/",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            >
+              LinkedIn
+            </button>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
