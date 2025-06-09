@@ -26,12 +26,16 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "about",
   },
   {
+    label: "Skills",
+    page: "skills",
+  },
+  {
     label: "Contact",
     page: "contact",
   },
   {
-    label: "Skills",
-    page: "skills",
+    label: "Projects",
+    page: "projects",
   },
 ];
 
@@ -88,23 +92,6 @@ export default function Navbar() {
                   </SkrollLink>
                 );
               })}
-              {/* External links */}
-              <Link
-                href="https://github.com/AlecMalenfant001"
-                id="GitHub"
-                className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100"
-                onClick={() => setNavbar(!navbar)}
-              >
-                GitHub
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/alec-malenfant/"
-                id="LinkedIn"
-                className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100"
-                onClick={() => setNavbar(!navbar)}
-              >
-                LinkedIn
-              </Link>
 
               {currentTheme === "dark" ? (
                 <button
