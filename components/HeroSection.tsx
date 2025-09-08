@@ -29,13 +29,7 @@ const HeroSection = () => {
             with a passion for all things tech. Pushing myself to learn and grow
             every day!
           </p>
-          <div className="flex flex-wrap mt-4 space-x-4">
-            <button
-              onClick={() => downloadResume()}
-              className="text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded shadow hover:bg-purple-700"
-            >
-              Download Resume
-            </button>
+          <div className="flex flex-wrap justify-center mt-4 space-x-4">
             <button
               className="text-slate-950 font-semibold px-6 py-3 bg-neutral-100 rounded shadow hover:bg-neutral-200"
               onClick={() => {
@@ -78,15 +72,5 @@ const HeroSection = () => {
     </section>
   );
 };
-
-function downloadResume() {
-  const a = document.createElement("a");
-  a.href =
-    "https://drive.google.com/uc?export=download&id=1PTGyqivXpKX3TZ3r97ORpuI1dRgnGxXW";
-  a.download = "Alec-Malenfant-Resume.docx"; // File name
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-}
 
 export default HeroSection;
