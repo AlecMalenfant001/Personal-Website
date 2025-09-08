@@ -47,17 +47,17 @@ const AboutSection = () => {
               <span className="font-bold">{"enthusiastic"}</span>,
               <span className="font-bold">{" ambitious"} </span>, and
               <span className="font-bold">{" driven"}</span> computer science
-              graduate in northwest Indiana located near Chicago.
+              graduate in northwest Indiana.
             </p>
             <br />
             <p>
-              Attending both Ivy Tech and Purdue University Northwest, I have
-              accumulated a wide range of skills to help me tackle various
-              projects. My senior project recently won 1st prize in Purdue
-              University Northwest&#39;s senior design contest. From managing a
-              local server to deploying multiple websites, I have the skills to
-              turn ideas into reality. Some projects that I have worked on
-              include :
+              With a Bachelors of Science in Computer Science from Purdue
+              University Northwest, I have accumulated a wide range of skills to
+              help me tackle various projects. My senior project recently won
+              1st place in Purdue University Northwest&#39;s senior design
+              contest. From managing a local server to deploying multiple
+              websites, I have the skills to turn ideas into reality. Some
+              projects that I have worked on include :
             </p>
             <ul className="list-disc pl-5">
               <li>AI image generation web app - award winner</li>
