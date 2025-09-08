@@ -29,7 +29,7 @@ const HeroSection = () => {
             with a passion for all things tech. Pushing myself to learn and grow
             every day!
           </p>
-          <div className="flex flex-wrap mt-4 space-x-4">
+          <div className="flex flex-wrap justify-center mt-4 space-x-4">
             <button
               className="text-slate-950 font-semibold px-6 py-3 bg-neutral-100 rounded shadow hover:bg-neutral-200"
               onClick={() => {
